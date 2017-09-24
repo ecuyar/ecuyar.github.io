@@ -1,0 +1,140 @@
+﻿body {
+  background: url(iceplanet.png) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+.nightmode {
+background: url(gargantua.png) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+* {
+    transition: all .2s ease-in;
+}
+
+main {
+  max-width: 40rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+h1,h2,h3,li,p{
+  color: rgb(40,40,40);
+  * {
+    margin: 0;
+  }
+  * + * {
+    margin-top: 1rem;
+  }
+}
+
+.nightmode h1, .nightmode h2, .nightmode h3, .nightmode li, .nightmode p{
+  color: rgb(240,240,240);
+  * {
+    margin: 0;
+  }
+  * + * {
+    margin-top: 1rem;
+  }
+}
+
+.jumbotron, .navbar-inverse, .well {
+  background-color: rgba(240,240,240,0.90);
+  border-color: rgb(240,240,240);
+}
+
+.nightmode .jumbotron, .nightmode .navbar-inverse, .nightmode .well {
+  background-color: rgba(40,40,40,0.90);
+  border-color: rgb(40,40,40);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  background-color: rgba(250,250,250,0.90);
+  border-color: rgb(221,221,221);
+}
+
+.nightmode .navbar-inverse .navbar-nav>li>a {
+  background-color: rgba(51,51,51,0.90);
+  border-color: rgb(40,40,40);
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+border-color: rgb(204,204,204);
+color: rgb(40,40,40);
+}
+
+.nightmode .navbar-inverse .navbar-nav>li>a:hover {
+border-color: rgb(33,33,33);
+color: rgb(240,240,240);
+background-color: rgb(40,40,40);
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+  background-color: rgb(89,89,89);
+  border-color: rgb(89,89,89);
+}
+
+.nightmode .navbar-inverse .navbar-nav>.active>a, .nightmode .navbar-inverse .navbar-nav>.active>a:focus, .nightmode .navbar-inverse .navbar-nav>.active>a:hover, .nightmode .navbar-inverse .navbar-nav>.open>a, .nightmode .navbar-inverse .navbar-nav>.open>a:focus, .nightmode .navbar-inverse .navbar-nav>.open>a:hover {
+  background-color: rgb(8,8,8);
+  border-color: rgb(8,8,8);
+}
+
+.form-horizontal .control-label , .checkbox label, .radio label{
+color: rgb(40,40,40);
+}
+
+.nightmode .form-horizontal .control-label , .nightmode .checkbox label, .radio label{
+color: rgb(240,240,240);
+}
+
+.dropdown-menu>li>a {
+ color: rgb(40,40,40);
+}
+
+.nightmode .dropdown-menu>li>a {
+ color: rgb(240,240,240);
+}
+
+.dropdown-menu>li>a:hover {
+ color: rgb(240,240,240);
+ background-color: rgb(89,89,89);
+}
+
+.nightmode .dropdown-menu>li>a:hover {
+ color: rgb(40,40,40);
+ background-color: rgb(240,240,240);
+}
+
+.dropdown-menu {
+ background-color: rgb(240,240,240);
+}
+
+.nightmode .dropdown-menu {
+ background-color: rgb(40,40,40);
+}
+
+ .radio label {
+color : rgb(2,2,2);
+}
+
+.nightmode .radio label {
+color : rgb(240,240,240);
+}
+
+#afterclick:focus {
+    color: #9d9d9d;
+    background-color: rgb(250,250,250);
+    border-color: rgb(221,221,221);
+}
+
+.nightmode #afterclick:focus {
+    color: #9d9d9d;
+    background-color: rgb(51,51,51);
+    border-color: rgb(40,40,40);
+}

@@ -58,30 +58,36 @@ The game aims to improve the memory and reflex of players. So that they can use 
 <div class="jumbotron">
 <p>
 <b>Requirements</b><br><br>
-<b>1) Includes an intellectual scenario with multiple levels</b><br>
-- This scenario will have levels that encourages the player to think.<br>
-- Levels will be sorted from easy to hard.<br>
-<b>2) Includes repeatable scenarios</b><br>
-- A repeatable scenario is made of one level that gives different results in each try.<br>
-- Typing test, tapping test, word memory, visual memory can be considered as repeatable scenarios.<br>
-<b>3) Levels are time based</b><br>
-- A timer will count the time spent in game.<br>
-- When the given time is up, the level will end.<br>
-- A certain amount of time will be given for each level.<br>
-<b>4) Has a score system in order to measure players success</b><br>
-- Players will get a score when they complete the level.<br>
-- The score can be a time value or a specific point.<br>
-<b>5) Supports Google Play Game Services</b><br>
-- There will be an interface to display GPGS.<br>
-- Sign in will be automatic.<br>
-- User achievements will promote the player to play the game more.<br>
-- Leaderboards will show the global score.<br>
-- Cloud save will allow to play the game with different accounts.<br>
-<b>6) Supports multi - languages</b><br>
-<b>7) Optimized for search results</b><br>
-- There will be a detailed description for the store.<br>
-- Logo and screenshots should be remarkable.<br>
-- The game's name shouldn't be too common or too rare.<br>
+<b>System Requirements
+
+a. Functional Requirements
+- Includes an intellectual scenario with multiple levels.
+- Levels will be sorted from easy to hard in intellectual scenario.
+- Includes repeatable scenarios like typing test, tapping test, word memory, visual memory.
+- A timer will count the time spent in the level.
+- When the given time is up, the level will end.
+- A certain amount of time will be given for each level.
+- Players will get a score when they complete the level.
+- The score can be a time value or a specific point.
+- There will be an interface to display Google Play Game Services.
+- Sign in will be automatic.
+- There will be user achievements to promote the player to play the game more.
+- Leaderboards will show the global score.
+- Cloud save will allow to play the game with different accounts.
+
+b. Non-functional Requirements
+1) Performance
+We will build the game in Unity, which is one of the best 2D game engines. Our game will be optimized for scripts, garbage collector and graphic rendering after building the raw game. These conditions will provide high performance for our users.
+2) Scalability
+Our game will be accesible for all Play Store users. There is no user limitation to play the game, so scalability of the system will be high.
+3) Security
+The other main goal of our game is protecting user data. So user's progress will be automatically saved in both local device and cloud. Cloud save will allow to load the player's progress when needed in particular cases such as re-installation, device issues etc.
+4) Maintainability
+Our game runs on mobile and tablet side. This system will be written in Unity with Android SDK tools and C#. The game will always updated and debugged according to the user's feedback and other new features.
+5) Usability
+Our game will be easy for user. The soft graphics and the specified color palette will be designed for not exhaust the user's eyes. A simple game menu (which will support multi-languages) and detailed walkthrough will make it easier for the user to understand game mechanics.
+6) Availability
+Our game will be available for more than 12000 different devices that supports android 4.0 or higher. Users don't have to connect to internet to play the game. Their in-game progress will be loaded in their google accounts when they connect the internet.
 </p>
 </div>
   </div>

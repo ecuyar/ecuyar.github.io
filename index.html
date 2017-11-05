@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<title>IZ GAME</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROJECTS</a>
+    <a href="#developers" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DEVELOPERS</a>
+	<a href="#partnership" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PARTNERSHIP</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#projects" class="w3-bar-item w3-button w3-padding-large">PROJECTS</a>
+  <a href="#developers" class="w3-bar-item w3-button w3-padding-large">DEVELOPERS</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large">CONTACT</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="oyun1.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Go Hard</h3>  
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="oyun3.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Don't Give Up!</h3>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="oyun2.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Shoot from 10!</h3>   
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">IZ GAME</h2>
+    <p class="w3-opacity"><i>We admire games.</i></p>
+    <p class="w3-justify">Our company is based on mobile games. We are developing in Android since 2015. We are looking for opportunities to get a place in IOS Appstore and virtual-augmented reality sector.</p>
+    <h2 class="w3-wide">VISION</h2>
+    <p class="w3-justify">Be one of the best companies in the sector by using developing technology and creative ideas.</p>
+    <h2 class="w3-wide">MISSION</h2>
+    <p class="w3-justify">We develop games that improve people's skills such as reflex, caution, memory and patience.</p>
+
+    
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="projects">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">PROJECT-1</h2>
+      <h2 class="w3-wide">SCOPE</h2>
+      <p class="w3-justify">We provide a mobile game for android that tests players skills in various ways such as speed, memory, caution, intelligence. Unlike the other puzzle games that contain only one category to play, our game will have different categories for each skill. It will also contain repeatable scenarios like typing test, tap frequency, visual memory, word retrieval. In this way, even if players have completed the game, they still will have something to improve themselves.<br> 
+      
+      The game will be available for all devices that supports android 4.0 or higher. It will have an interface that allows to see other player's activities. The game will have standard capabilities such as :<br> 
+
+- Categories for different skills<br> 
+- Multiple levels in each category<br>
+- Time limited levels<br> 
+- Repeatable, self-improvable scenarios<br> 
+- Score system<br> 
+- Google Play Game Services (user sign in, achievements, leaderboards, cloud save)<br> 
+- Multiple language support<br> 
+- ASO (Application Search Optimization) to find the game easily when searched in Play Store<br> 
+
+The game aims to improve the memory and reflex of players. So that they can use their skills in anywhere in their life.</p>
+
+	 <h2 class="w3-wide">SYSTEM REQUIREMENTS</h2>
+
+	 <p class="w3-justify">A. Functional Requirements<br>
+- Includes an intellectual scenario with multiple levels.<br>
+- Levels will be sorted from easy to hard in intellectual scenario.<br>
+- Includes repeatable scenarios like typing test, tapping test, word memory, visual memory.<br>
+- A timer will count the time spent in the level.<br>
+- When the given time is up, the level will end.<br>
+- A certain amount of time will be given for each level.<br>
+- Players will get a score when they complete the level.<br>
+- The score can be a time value or a specific point.<br>
+- There will be an interface to display Google Play Game Services.<br>
+- Sign in will be automatic.<br>
+- There will be user achievements to promote the player to play the game more.<br>
+- Leaderboards will show the global score.<br>
+- Cloud save will allow to play the game with different accounts.<br><br>
+
+B. Non-functional Requirements<br>
+1) Performance<br>
+We will build the game in Unity, which is one of the best 2D game engines. Our game will be optimized for scripts, garbage collector and graphic rendering after building the raw game. These conditions will provide high performance for our users.<br>
+
+2) Scalability<br>
+Our game will be accesible for all Play Store users. There is no user limitation to play the game, so scalability of the system will be high.<br>
+
+3) Security<br>
+The other main goal of our game is protecting user data. So user's progress will be automatically saved in both local device and cloud. Cloud save will allow to load the player's progress when needed in particular cases such as re-installation, device issues etc.<br>
+
+4) Maintainability<br>
+Our game runs on mobile and tablet side. This system will be written in Unity with Android SDK tools and C#. The game will always updated and debugged according to the user's feedback and other new features.<br>
+
+5) Usability<br>
+Our game will be easy for user. The soft graphics and the specified color palette will be designed for not exhaust the user's eyes. A simple game menu (which will support multi-languages) and detailed walkthrough will make it easier for the user to understand game mechanics.<br>
+
+6) Availability<br>
+Our game will be available for more than 12000 different devices that supports android 4.0 or higher. Users don't have to connect to internet to play the game. Their in-game progress will be loaded in their google accounts when they connect the internet.</p>
+
+      </div>
+  </div>
+
+ 
+  <div class="w3-container w3-content w3-padding-64" style="max-width:1200px" id="developers">
+    <h2 class="w3-wide w3-center">DEVELOPERS</h2>
+    <div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="ahmet.jpg" alt="Boss" style="width:80%" class="w3-circle w3-hover-opacity">
+  <h3>Ahmet SAY</h3>
+  <p>Unity Engine</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="ali.jpg" alt="Boss" style="width:80%" class="w3-circle w3-hover-opacity">
+  <h3>Ali İhsan KARABAL</h3>
+  <p>Unity Engine</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="cengiz.jpg" alt="Boss" style="width:80%" class="w3-circle w3-hover-opacity">
+  <h3>Cengizhan ÖZ</h3>
+  <p>Web Developer</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="enes.jpg" alt="Boss" style="width:80%" class="w3-circle w3-hover-opacity">
+  <h3>Enescan Uyar</h3>
+  <p>Designer</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="tarık.jpg" alt="Boss" style="width:80%" class="w3-circle w3-hover-opacity">
+  <h3>Tarık KAYA</h3>
+  <p>Designer</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="umit.jpg" alt="Boss" style="width:80%" class="w3-circle w3-hover-opacity">
+  <h3>Ümit Can AGBULAK</h3>
+  <p>Unity Engine</p>
+</div>
+ </div>
+  </div>
+
+
+ <div class="w3-black" id="partnership">    
+<div class="w3-container w3-content w3-padding-64" style="max-width:1200px">
+      <h2 class="w3-wide w3-center">PARTNERSHIP</h2>
+
+<div class="w3-quarter">
+  <h3>GOOGLE</h3>
+  <img src="google.jpg" alt="Boss" style="width:80%" class="w3-circle w3-hover-opacity">
+</div>
+
+<div class="w3-quarter">
+  <h3>UNITY ENGINE</h3>
+  <img src="unity.jpg" alt="Boss" style="width:80%" class="w3-circle w3-hover-opacity">
+</div>
+
+<div class="w3-quarter">
+  <h3>JUKEDECK</h3>
+  <img src="juke.jpg" alt="Boss" style="width:80%" class="w3-circle w3-hover-opacity">
+</div>
+
+<div class="w3-quarter">
+  <h3>SOCKET.IO</h3>
+  <img src="socket.png" alt="Boss" style="width:80%" class="w3-circle w3-hover-opacity">
+</div>
+      
+      </div>
+  </div>
+
+  </div>
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Advice, Complain, Improve...</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Eskisehir,TR<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: 08502223259678<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: contact@izgame.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+<!-- Add Google Maps -->
+	<div id="googleMap" align="middle">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d49034.53849126217!2d30.507401589890392!3d39.81464793016919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sanadolu üniversitesi teknopark!5e0!3m2!1str!2str!4v1506332774957" width="900" height="600" style="border:0" allowfullscreen></iframe>
+</div>
+
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
+
